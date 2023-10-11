@@ -1,0 +1,68 @@
+.quotes {
+  max-width: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  margin-top: 95px;
+}
+.quotes .quotesHeading {
+  font-family: proximaThin;
+  font-size: 40px;
+}
+.quotes .quotesHeading .quotesInfo {
+  width: 730px;
+  height: 340px;
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.quotes .quotesHeading .quotesInfo .quoteOne {
+  width: 730px;
+  height: 150px;
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.quotes .quotesHeading .quotesInfo .quoteOne .quotesImage {
+  width: 260px;
+  height: 150px;
+  background-image: url("../images/442c3df5e07094ad40ce7b852930b8d4.png");
+}
+.quotes .quotesHeading .quotesInfo .quoteOne .quotesImage .quotesText {
+  max-width: 470px;
+}
+.quotes .quotesHeading .quotesInfo .quoteOne .quotesImage .quotesText .paragraph {
+  width: 385px;
+}
+.quotes .quotesHeading .quotesInfo .quoteTwo {
+  width: 730px;
+  height: 150px;
+  background-color: purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.quotes .quotesHeading .quotesInfo .quoteTwo .quotesImage {
+  width: 260px;
+  height: 150px;
+  background-image: url(../images/about-client-02.png);
+}
